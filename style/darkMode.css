@@ -4,6 +4,8 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     letter-spacing: 5px;
     font-size: 1.8rem;
+    background-color: #080808;
+    color: white;
   }
   
   .calculator {
@@ -12,11 +14,13 @@ body {
     box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
     border-radius: 1px;
     width: 500px;
+    background-color: #120e36;
   }
   
   .input {
     border: 1px solid #ddd;
     border-radius: 1px;
+    color: white;
     height: 60px;
     padding-right: 15px;
     padding-top: 10px;
@@ -25,6 +29,7 @@ body {
     font-size: 2.5rem;
     overflow-x: auto;
     transition: all .2s ease-in-out;
+    background-color: rgb(100, 92, 92);
   }
   
   .input:hover {
@@ -40,14 +45,15 @@ body {
     width: 80px;
     text-align: center;
     padding: 10px;
+    color: white;
     margin: 20px 4px 10px 0;
     cursor: pointer;
-    background-color: #ddd;
+    background-color: #080808;
     transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
   }
   
   .operators div:hover {
-    background-color: #ddd;
+    background-color: #5e5b5b;
     -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
     border-color: #aaa;
@@ -63,6 +69,7 @@ body {
   
   .numbers div {
     display: inline-block;
+    color: white;
     border: 1px solid #ddd;
     border-radius: 1px;
     width: 80px;
@@ -70,12 +77,12 @@ body {
     padding: 10px;
     margin: 10px 4px 10px 0;
     cursor: pointer;
-    background-color: #f9f9f9;
+    background-color: #383838;
     transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
   }
   
   .numbers div:hover {
-    background-color: #f1f1f1;
+    background-color: #5e5b5b;
     -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
     border-color: #bbb;
@@ -96,12 +103,12 @@ body {
     vertical-align: top;
     cursor: pointer;
     color: #FFF;
-    background-color: #4d90fe;
+    background-color: #1100a8;
     transition: all .2s ease-in-out;
   }
   
   div.equal:hover {
-    background-color: #307CF9;
+    background-color: #2f00ff;
     -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
     border-color: #1857BB;
@@ -111,7 +118,7 @@ body {
     font-weight: bold;
   }
 .modeChange{
-  background-image: url(images/DarkMode.png);
+  background-image: url(images/LightMode.png);
   height: 100px;
   background-size: contain;
   width: 100px;
